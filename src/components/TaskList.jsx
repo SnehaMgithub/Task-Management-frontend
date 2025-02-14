@@ -6,7 +6,7 @@ import TaskForm from "./TaskForm";
 import loadingImg from "../assets/loader.gif";
 
 // ✅ Correctly using Vite environment variable
-export const URL = import.meta.env.VITE_SERVER_URL || "http://localhost:4000";
+export const URL = import.meta.env.VITE_SERVER_URL || "https://task-management-backend-eu8f.onrender.com/";
 
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
